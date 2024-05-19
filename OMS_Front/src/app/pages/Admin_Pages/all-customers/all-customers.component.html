@@ -1,0 +1,14 @@
+<app-common-nav></app-common-nav>
+<div class="container"> 
+    <table class="table table-striped">
+        <br><br>
+        <tbody>
+            <tr *ngFor="let cust of customers">
+                <td><h1>{{cust.customerName}}</h1></td>
+                <td><h2>{{cust.emailId}}</h2></td>
+                <td>{{cust.mobileNumber}}</td>
+                <td>{{cust.address}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

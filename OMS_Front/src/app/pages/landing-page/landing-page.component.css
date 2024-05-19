@@ -1,0 +1,29 @@
+.carousel img{
+    height: 490px;
+}
+
+.cards{
+    margin: 15px 10px;
+    height: 500px;
+    color: rgb(11, 36, 40);
+}
+
+.mimg{
+    height: 280px;
+    width: 290px;
+}
+
+.buy{
+    width: 90px;
+    float: right;
+}
+
+.image{
+    height: 240px; 
+    width: 270px;
+}
+
+.image:hover{
+    height: 260px; 
+    width: 290px;
+}

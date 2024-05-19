@@ -1,0 +1,21 @@
+<h1>Mobiles in Cart</h1>
+<div class="container"> 
+    <table class="table table-striped">
+        <tbody>
+            <tr *ngFor="let mobile of mobiles">
+                <td>
+                    <img style="height: 90px; width: 90px;" src= {{mobile.imagePath}}>
+                </td>
+                <td><h1>{{mobile.companyName}}</h1></td>
+                <td><h2>{{mobile.mobileName}}</h2></td>
+                <td><h2>{{mobile.mobileCost}} Rs.</h2></td>
+                <td><button class="btn btn-danger" (click)="[delete(mobile.mobileId)]">Remove</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="order" >
+        <h1>Total cost = {{cart.totalCost}} Rs.</h1>
+        <button class="btn btn-success" (click)="[placeOrder()]">Place Order</button>
+    </div>
+</div>

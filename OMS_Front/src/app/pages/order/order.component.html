@@ -1,0 +1,27 @@
+<h1>Order History</h1>
+
+<table class="table table-striped">
+        <br><br>
+        <tbody>
+            <tr *ngFor="let mobile of mobiles">
+                <table class="table table-striped">
+                    <tbody>
+                            <!-- {{setMobile(mobId)}} -->
+                            <td>
+                                <img style="height: 90px; width: 90px;" src={{mobile.imagePath}}>
+                            </td>
+                            <td>
+                                <h1>{{mobile.companyName}}</h1>
+                            </td>
+                            <td>
+                                <h2>{{mobile.mobileName}}</h2>
+                            </td>
+                            <td>{{mobile.mobileRam}} GB</td>
+                            <td>{{mobile.mobileBattery}} mAH</td>
+                            <td>{{mobile.cameraPixcel}} px</td>
+                            <td>{{mobile.mobileCost}} Rs.</td>
+                    </tbody>
+                </table>
+            </tr>
+        </tbody>
+    </table>

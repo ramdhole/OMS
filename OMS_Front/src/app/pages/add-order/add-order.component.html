@@ -1,0 +1,19 @@
+<div class="container"> 
+    <table class="table table-striped">
+        <br><br>
+        <tbody>
+            <tr>
+                <div (click)="[seeDetails(mobile.mobileId)]">
+                    <td>
+                        <img style="height: 90px; width: 90px;" src= {{mobile.imagePath}}>
+                    </td>
+                    <td><h1>{{mobile.companyName}}</h1></td>
+                    <td><h2>{{mobile.mobileName}}</h2></td>
+                    <td></td>
+                    <td><h2>{{mobile.mobileCost}} Rs.</h2></td>
+                </div>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<button class="btn btn-success" (click)="[placeOrder()]">Confirm Order</button>

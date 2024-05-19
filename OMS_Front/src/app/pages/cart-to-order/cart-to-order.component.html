@@ -1,0 +1,28 @@
+<h1>Order Placed !!</h1>
+
+<div class="container">
+    <table class="table table-striped">
+        <br><br>
+        <tbody>
+            <tr *ngFor="let mobile of mobiles">
+                <a>
+                    <div (click)="[seeDetails(mobile.mobileId)]">
+                        <td>
+                            <img style="height: 90px; width: 90px;" src={{mobile.imagePath}}>
+                        </td>
+                        <td>
+                            <h1>{{mobile.companyName}}</h1>
+                        </td>
+                        <td>
+                            <h2>{{mobile.mobileName}}</h2>
+                        </td>
+                        <td></td>
+                        <td>
+                            <h2>{{mobile.mobileCost}} Rs.</h2>
+                        </td>
+                    </div>
+                </a>
+            </tr>
+        </tbody>
+    </table>
+</div>

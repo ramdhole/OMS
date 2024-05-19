@@ -1,0 +1,22 @@
+<div class="container"> 
+    <table class="table table-striped">
+        <br><br>
+        <tbody>
+            <tr *ngFor="let mobile of mobiles">
+                <a (click)="mobDetails(mobile.mobileId)">
+                    <td>
+                        <img style="height: 90px; width: 90px;" src= {{mobile.imagePath}}>
+                    </td>
+                    <td><h1>{{mobile.companyName}}</h1></td>
+                    <td><h2>{{mobile.mobileName}}</h2></td>
+                    <td>{{mobile.mobileRam}} GB</td>
+                    <td>{{mobile.mobileBattery}} mAH</td>
+                    <td>{{mobile.cameraPixcel}} px</td>
+                    <td>{{mobile.mobileCost}} Rs.</td>
+                    <td><button class="btn btn-info" (click)="[addToOrder(mobile.mobileId)]">Buy</button></td>
+                    <td><button class="btn btn-primary" (click)="[addToCart(mobile.mobileId)]">Add To Cart</button></td>
+                </a>
+            </tr>
+        </tbody>
+    </table>
+</div>

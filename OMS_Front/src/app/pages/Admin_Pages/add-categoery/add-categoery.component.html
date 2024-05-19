@@ -1,0 +1,12 @@
+<app-common-nav></app-common-nav>
+<form action="submit" (ngSubmit)="addCategoery()">
+    <div class="col-4 mt-3">
+        <div class="form-group">
+            <label>Catergory</label>
+            <input type="text" [(ngModel)]="categ.categoryName" name="category" class="form-control"  placeholder="Enter ModelNumber" required>
+        </div>
+    </div>
+    <div>
+        <button class="btn btn-outline-success mt-3" type="submit">Add Category</button>
+    </div>
+</form>

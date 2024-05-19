@@ -1,0 +1,44 @@
+
+<app-common-nav></app-common-nav>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card border-primary mb-3" style="background-color: #dfefff;width: 600px;  margin-left: 40px;">
+        <div class="card-body text-primary">
+          <h5 class="card-title">View All Mobiles</h5>
+          <a (click)="veiwMobs()" class="btn btn-outline-primary">View Mobiles</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card border-primary mb-3" style="background-color: #dfefff;width: 600px;margin-left: 40px;">
+        <div class="card-body text-primary">
+          <h5 class="card-title">Add Mobile</h5>
+          <a (click)="addMob()" class="btn btn-outline-primary">Add Mobiles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card border-primary mb-3" style="background-color: #dfefff;width: 600px;margin-left: 40px;">
+        <div class="card-body text-primary">
+          <h5 class="card-title">View All Orders</h5>
+          <a (click)="viewOrders()" class="btn btn-outline-primary">View Orders</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card border-primary mb-3" style="background-color: #dfefff;width: 600px;margin-left: 40px;">
+        <div class="card-body text-primary">
+          <h5 class="card-title">View All Customers</h5>
+          <a (click)="veiwCusts()" class="btn btn-outline-primary">View Customers</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+<div class="container mt-4">
+    <router-outlet></router-outlet>
+</div>

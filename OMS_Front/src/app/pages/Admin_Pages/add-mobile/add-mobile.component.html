@@ -1,0 +1,66 @@
+<app-common-nav></app-common-nav>
+
+<div class="container my-5" style="background-color: #f8f9fa;">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card border-0 shadow-sm p-4" style="background-color: #FFFFFF;">
+                <h3 class="text-center"><i class="fa-solid fa-circle-plus"></i> Add new Mobile</h3>
+                <hr>
+                <form #addMobileForm="ngForm" (ngSubmit)="onAddMobile()" [noValidate]="false" class="mt-4 row g-3">
+                    <div class="col-md-6">
+                        <label for="mobileName" class="form-label">Mobile Name</label>
+                        <input type="text" class="form-control" id="mobileName" placeholder="Enter MobileName" [(ngModel)]="mobile.mobileName" name="mobileName" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="companyName" class="form-label">Mobile Brand</label>
+                        <input type="text" class="form-control" id="companyName" placeholder="Enter MobileBrand" [(ngModel)]="mobile.companyName" name="companyName" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="cameraPixcel" class="form-label">Camera Pixel <i class="fa-solid fa-camera"></i> </label>
+                        <input type="number" class="form-control" id="cameraPixcel" placeholder="Enter CameraPixel" [(ngModel)]="mobile.cameraPixcel" name="cameraPixcel" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="mobileCost" class="form-label">Price <i class="fa-solid fa-money-bill-1-wave"></i> </label>
+                        <input type="number" step="0.01" class="form-control" id="mobileCost" placeholder="Enter Price" [(ngModel)]="mobile.mobileCost" name="mobileCost" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="mobileBattery" class="form-label">Battery <i class="fa-solid fa-battery-quarter"></i> </label>
+                        <input type="text" class="form-control" id="mobileBattery" placeholder="Enter BatteryCapcity" [(ngModel)]="mobile.mobileBattery" name="mobileBattery" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="mfDate" class="form-label">Manufacturing date</label>
+                        <input type="date" class="form-control" id="mfDate" placeholder="Enter ManufacturingDate" name="mfDate" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="mobileRAM" class="form-label">RAM</label>
+                        <select class="form-select"  [(ngModel)]="mobile.mobileRam" name="mobileRAM" id="mobileRAM" required>
+                            <option *ngFor="let rr of RamValue"  placeholder="Enter MobileRam" [ngValue]="rr">{{rr}}</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="modelNumber" class="form-label">Model Number</label>
+                        <input type="text" class="form-control" id="modelNumber" [(ngModel)]="mobile.modelNumber" name="modelNumber" placeholder="Enter ModelNumber" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="category" class="form-label">Catergory</label>
+                        <input type="text" class="form-control" id="category" [(ngModel)]="category.categoryName" name="category" placeholder="Enter ModelNumber" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="availableQuantity" class="form-label">Available Quantity</label>
+                        <input type="number" class="form-control" id="availableQuantity" [(ngModel)]="mobile.availableQuantity" name="availableQuantity" placeholder="Enter Quantity">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="imagePath" class="form-label">Add Image Path</label>
+                        <input type="text" class="form-control" id="imagePath" [(ngModel)]="mobile.imagePath" name="imagePath" placeholder="Enter ImagePath">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-outline-primary">Add Mobile</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+[]

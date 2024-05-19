@@ -1,0 +1,19 @@
+<div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="col-sm-4 card" style="background-color: white; border-radius: 10px;">
+        <h3 class="card-header" style="background-color: #7fabe9; color: white;"><i class="fa-solid fa-cart-shopping"></i> Admin Login</h3>
+        <div class="card-body">
+            <form #addMobileForm="ngForm" (ngSubmit)="login()" [noValidate]="false">
+                <div class="form-group">
+                    <label><h4>User Name</h4></label>
+                    <input type="email" class="form-control"  placeholder="Enter userName" [(ngModel)]="userName" name="userName" required>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <label><h4>Enter Password</h4></label>
+                    <input type="password" class="form-control"  placeholder="Enter Password" [(ngModel)]="password" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-outline-primary mt-3">Login</button>
+            </form>
+        </div>
+    </div>
+</div>

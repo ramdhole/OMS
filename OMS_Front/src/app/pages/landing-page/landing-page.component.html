@@ -1,0 +1,75 @@
+<div class="carousel">
+
+    <mdb-carousel [controls]="true" [indicators]="true">
+        <mdb-carousel-item>
+            <img
+            src="https://cdn.mos.cms.futurecdn.net/R4JUHrXr8HnCvFKLsxhe5h.jpg"
+            class="d-block w-100"
+            alt="..."
+            />
+        </mdb-carousel-item>
+        
+        <mdb-carousel-item>
+            <img
+            src="https://ibixion.com/wp-content/uploads/2018/02/best-android-phones.jpg"
+            class="d-block w-100"
+            alt="..."
+            />
+        </mdb-carousel-item>
+        <mdb-carousel-item>
+      <img
+        src="https://androidcommunity.com/wp-content/uploads/2021/02/HTC-Wildfire-E-Lite-Launch.jpg"
+        class="d-block w-100"
+        alt="..."
+        />
+    </mdb-carousel-item>
+</mdb-carousel>
+</div>
+
+<br><br>
+<div class="list-group list-group-horizontal position-relative overflow-auto w-100">
+    <div class="cards" *ngFor="let mobile of mobiles">
+        <div class="card" style="width: 18rem;">
+            <a (click)="[seeDetails(mobile.mobileId)]">
+                <div class="mimg">
+                    <img src={{mobile.imagePath}} class="card-img-top image" alt="Mobile Image"/>
+                </div>
+            </a>
+            <div class="card-body">
+                <a (click)="[seeDetails(mobile.mobileId)]">
+                    <h4>{{mobile.companyName}}</h4>
+                    <h5>{{mobile.mobileName}}<p>&lpar; {{mobile.mobileRam}}GB  &rpar;</p></h5>
+                    <h2>Rs. {{mobile.mobileCost}}</h2>
+                </a>
+                    <button class="btn btn-info cart" (click)="[addToCart(mobile.mobileId)]">Add to Cart</button>
+                    <button class="btn btn-success buy" (click)="[addToOrder(mobile.mobileId)]">Buy</button>
+                </div>
+        </div>
+        
+    </div>
+</div>
+<br><br>
+
+
+<div class="container"> 
+    <table class="table table-striped">
+        <br><br>
+        <tbody>
+            <tr *ngFor="let mobile of mobiles">
+                <div (click)="[seeDetails(mobile.mobileId)]">
+                    <td>
+                        <img style="height: 90px; width: 90px;" src= {{mobile.imagePath}}>
+                    </td>
+                    <td><h1>{{mobile.companyName}}</h1></td>
+                    <td><h2>{{mobile.mobileName}}</h2></td>
+                    <td>{{mobile.mobileRam}} GB</td>
+                    <td>{{mobile.mobileBattery}} mAH</td>
+                    <td>{{mobile.cameraPixcel}} px</td>
+                    <td>{{mobile.mobileCost}} Rs.</td>
+                </div>
+                <td><button class="btn btn-info" (click)="[addToOrder(mobile.mobileId)]">Buy</button></td>
+                <td><button class="btn btn-primary" (click)="[addToCart(mobile.mobileId)]">Add To Cart</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

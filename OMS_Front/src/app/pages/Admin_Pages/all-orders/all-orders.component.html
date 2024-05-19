@@ -1,0 +1,24 @@
+
+<app-common-nav></app-common-nav>
+
+<div class="container"> 
+    <table class="table table-striped">
+        <br><br>
+        <thead>
+            <tr>
+                <td>Order Id</td>
+                <td>Order Status</td>
+                <td>Customer Id</td>
+                <td>Cost</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let order of orders">
+                <td>{{order.orderId}}</td>
+                <td>{{order.orderStatus}}</td>
+                <td>{{order.custId}}</td>
+                <td>{{order.totalCost}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
