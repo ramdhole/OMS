@@ -1,12 +1,12 @@
-package com.cg.mobileStore.Service;
+package oms.cust.Service;
 
 import java.util.List;
 
-import com.cg.mobileStore.Dto.CartDTO;
-import com.cg.mobileStore.Dto.CustomerDTO;
-import com.cg.mobileStore.Dto.MobileDTO;
-import com.cg.mobileStore.Dto.OrderDTO;
-import com.cg.mobileStore.Entity.Customer;
+import oms.cust.Dto.CartDTO;
+import oms.cust.Dto.CustomerDTO;
+import oms.cust.Dto.MobileDTO;
+import oms.cust.Dto.OrderDTO;
+import oms.cust.Entity.Customer;
 
 public interface CustomerService {
 

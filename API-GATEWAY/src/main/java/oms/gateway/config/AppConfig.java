@@ -1,4 +1,4 @@
-package com.oms.config;
+package oms.gateway.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

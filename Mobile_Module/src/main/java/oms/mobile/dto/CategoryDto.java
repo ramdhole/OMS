@@ -1,4 +1,4 @@
-package com.onlineapplication.dto;
+package oms.mobile.dto;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;

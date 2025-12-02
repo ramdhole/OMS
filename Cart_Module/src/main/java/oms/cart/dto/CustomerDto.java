@@ -1,10 +1,9 @@
-package com.oms.dto;
-
-import com.oms.entity.Cart;
+package oms.cart.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import oms.cart.entity.Cart;
 
 @AllArgsConstructor
 @NoArgsConstructor

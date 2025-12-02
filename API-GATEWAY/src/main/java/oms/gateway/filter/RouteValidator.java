@@ -1,4 +1,4 @@
-package com.oms.filter;
+package oms.gateway.filter;
 
 import java.util.List;
 import java.util.function.Predicate;

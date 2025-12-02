@@ -1,4 +1,4 @@
-package com.cg.mobileStore;
+package oms.cust;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;

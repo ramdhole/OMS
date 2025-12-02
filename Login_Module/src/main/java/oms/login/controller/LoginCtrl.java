@@ -1,4 +1,4 @@
-package com.oms.controller;
+package oms.login.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.oms.dto.CustomerDTO;
-import com.oms.entity.JWTResponse;
-import com.oms.service.LoginServ;
+import oms.login.dto.CustomerDTO;
+import oms.login.entity.JWTResponse;
+import oms.login.service.LoginServ;
 
 @RestController
 @RequestMapping("/login")

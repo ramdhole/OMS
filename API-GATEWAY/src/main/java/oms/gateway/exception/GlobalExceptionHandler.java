@@ -1,11 +1,11 @@
-package com.oms.exception;
+package oms.gateway.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.oms.payload.ApiResponse;
+import oms.gateway.payload.ApiResponse;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {

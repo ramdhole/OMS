@@ -1,4 +1,4 @@
-package com.orders.entity;
+package oms.order.entity;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.oms.exception;
+package oms.cart.exception;
 
 public class MobileNotFoundException extends RuntimeException {
 

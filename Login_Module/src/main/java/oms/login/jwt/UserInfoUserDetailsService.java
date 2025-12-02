@@ -1,4 +1,4 @@
-package com.oms.jwt;
+package oms.login.jwt;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -7,10 +7,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import com.oms.dto.CustomerDTO;
-import com.oms.entity.Admin;
-import com.oms.exception.UserNotFoundExcception;
-import com.oms.service.LoginServ;
+import oms.login.dto.CustomerDTO;
+import oms.login.entity.Admin;
+import oms.login.exception.UserNotFoundExcception;
+import oms.login.service.LoginServ;
 
 @Component
 public class UserInfoUserDetailsService implements UserDetailsService {

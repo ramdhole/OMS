@@ -1,4 +1,4 @@
-package com.mobileapplication.exception;
+package oms.admin.exception;
 
 import java.util.Date;
 

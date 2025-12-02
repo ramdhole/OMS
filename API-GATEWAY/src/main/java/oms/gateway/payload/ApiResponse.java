@@ -1,4 +1,4 @@
-package com.oms.payload;
+package oms.gateway.payload;
 
 import org.springframework.http.HttpStatus;
 

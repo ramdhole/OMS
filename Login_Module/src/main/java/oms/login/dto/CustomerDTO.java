@@ -1,4 +1,4 @@
-package com.oms.dto;
+package oms.login.dto;
 
 import java.util.ArrayList;
 import java.util.List;

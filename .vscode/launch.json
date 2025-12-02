@@ -1,0 +1,98 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CartModuleApplication<Cart_Module>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "oms.cart.CartModuleApplication",
+            "projectName": "Cart_Module",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CartModuleApplication<CartModule>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "oms.cart.CartModuleApplication",
+            "projectName": "CartModule",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-LoginModuleApplication<Login_Module>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "oms.login.LoginModuleApplication",
+            "projectName": "Login_Module",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-OnlineApplication<Online_Application>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "oms.mobile.OnlineApplication",
+            "projectName": "Online_Application",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-OnlineMobileStoreApplication<OnlineMobileStore>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "oms.cust.OnlineMobileStoreApplication",
+            "projectName": "OnlineMobileStore",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ServiceRegistryApplication<ServiceRegistry>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "oms.registry.ServiceRegistryApplication",
+            "projectName": "ServiceRegistry",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AdminMicroService<AdminMicroService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "oms.admin.AdminMicroService",
+            "projectName": "AdminMicroService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiGatewayApplication<API-GATEWAY>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "oms.gateway.ApiGatewayApplication",
+            "projectName": "API-GATEWAY",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-OrdersApplication<Orders>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "oms.order.OrdersApplication",
+            "projectName": "Orders",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

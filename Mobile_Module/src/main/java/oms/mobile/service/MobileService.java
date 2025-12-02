@@ -1,10 +1,10 @@
-package com.onlineapplication.service;
+package oms.mobile.service;
 
 import java.util.List;
 
-import com.onlineapplication.dto.MobileDTO;
-import com.onlineapplication.entity.Category;
-import com.onlineapplication.entity.Mobile;
+import oms.mobile.dto.MobileDTO;
+import oms.mobile.entity.Category;
+import oms.mobile.entity.Mobile;
 
 public interface MobileService {
 	

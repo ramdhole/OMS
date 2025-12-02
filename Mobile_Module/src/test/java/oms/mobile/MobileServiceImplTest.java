@@ -1,4 +1,4 @@
-package com.onlineapplication;
+package oms.mobile;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
@@ -13,14 +13,15 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.modelmapper.ModelMapper;
-import com.onlineapplication.entity.Category;
-import com.onlineapplication.entity.Mobile;
-import com.onlineapplication.exception.CategoryException;
-import com.onlineapplication.exception.MobileNotFoundException;
-import com.onlineapplication.exception.MobilesException;
-import com.onlineapplication.repository.CategoryRepository;
-import com.onlineapplication.repository.MobileRepository;
-import com.onlineapplication.service.MobileServiceImpl;
+
+import oms.mobile.entity.Category;
+import oms.mobile.entity.Mobile;
+import oms.mobile.exception.CategoryException;
+import oms.mobile.exception.MobileNotFoundException;
+import oms.mobile.exception.MobilesException;
+import oms.mobile.repository.CategoryRepository;
+import oms.mobile.repository.MobileRepository;
+import oms.mobile.service.MobileServiceImpl;
 
 @ExtendWith(MockitoExtension.class)
 public class MobileServiceImplTest {

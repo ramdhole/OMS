@@ -1,4 +1,4 @@
-package com.oms;
+package oms.cart;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

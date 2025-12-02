@@ -1,4 +1,4 @@
-package com.mobileapplication.controller;
+package oms.admin.controller;
 
 import java.util.List;
 
@@ -14,15 +14,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mobileapplication.dto.CategoryDto;
-import com.mobileapplication.dto.CustomerDTO;
-import com.mobileapplication.dto.MobileDTO;
-import com.mobileapplication.dto.OrderDTO;
-import com.mobileapplication.entity.Admin;
-import com.mobileapplication.service.AdminService;
-import com.mobileapplication.service.AdminServiceImpl;
-
 import jakarta.validation.Valid;
+import oms.admin.dto.CategoryDto;
+import oms.admin.dto.CustomerDTO;
+import oms.admin.dto.MobileDTO;
+import oms.admin.dto.OrderDTO;
+import oms.admin.entity.Admin;
+import oms.admin.service.AdminService;
+import oms.admin.service.AdminServiceImpl;
 
 @RestController
 @RequestMapping("/admin")

@@ -1,4 +1,4 @@
-package com.oms.dto;
+package oms.cart.dto;
 
 import java.util.HashMap;
 import java.util.Map;

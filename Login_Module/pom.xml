@@ -9,7 +9,7 @@
 		<version>3.2.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.oms</groupId>
+	<groupId>oms.login</groupId>
 	<artifactId>Login_Module</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Login_Module</name>

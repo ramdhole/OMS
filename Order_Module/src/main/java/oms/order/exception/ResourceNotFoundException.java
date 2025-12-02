@@ -1,4 +1,4 @@
-package com.orders.exception;
+package oms.order.exception;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

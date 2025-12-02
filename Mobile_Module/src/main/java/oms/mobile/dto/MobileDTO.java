@@ -1,6 +1,4 @@
-package com.onlineapplication.dto;
-
-import com.onlineapplication.entity.Category;
+package oms.mobile.dto;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -9,6 +7,7 @@ import jakarta.persistence.ManyToOne;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
+import oms.mobile.entity.Category;
 
 @Data
 public class MobileDTO {

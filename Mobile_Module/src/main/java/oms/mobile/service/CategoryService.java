@@ -1,11 +1,10 @@
-package com.onlineapplication.service;
+package oms.mobile.service;
 
 import java.util.List;
 
-import com.onlineapplication.dto.CategoryDto;
-import com.onlineapplication.dto.MobileDTO;
-
 import jakarta.validation.Valid;
+import oms.mobile.dto.CategoryDto;
+import oms.mobile.dto.MobileDTO;
 
 public interface CategoryService {
 	

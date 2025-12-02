@@ -1,4 +1,4 @@
-package com.onlineapplication;
+package oms.mobile;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;

@@ -1,9 +1,9 @@
-package com.orders.service;
+package oms.order.service;
  
 import java.util.List;
 
-import com.orders.dto.MobilesDto;
-import com.orders.dto.OrdersDto;
+import oms.order.dto.MobilesDto;
+import oms.order.dto.OrdersDto;
  
  
 public interface IOrderService {

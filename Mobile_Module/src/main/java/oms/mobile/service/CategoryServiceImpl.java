@@ -1,4 +1,4 @@
-package com.onlineapplication.service;
+package oms.mobile.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,15 +10,14 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.onlineapplication.dto.CategoryDto;
-import com.onlineapplication.dto.MobileDTO;
-import com.onlineapplication.entity.Category;
-import com.onlineapplication.entity.Mobile;
-import com.onlineapplication.exception.CategoryException;
-import com.onlineapplication.repository.CategoryRepository;
-import com.onlineapplication.repository.MobileRepository;
-
 import lombok.extern.slf4j.Slf4j;
+import oms.mobile.dto.CategoryDto;
+import oms.mobile.dto.MobileDTO;
+import oms.mobile.entity.Category;
+import oms.mobile.entity.Mobile;
+import oms.mobile.exception.CategoryException;
+import oms.mobile.repository.CategoryRepository;
+import oms.mobile.repository.MobileRepository;
 
 @Service
 @Slf4j

@@ -1,12 +1,12 @@
-package com.onlineapplication.repository;
+package oms.mobile.repository;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.onlineapplication.entity.Mobile;
-import com.onlineapplication.entity.Category;
+import oms.mobile.entity.Category;
+import oms.mobile.entity.Mobile;
 
 
 public interface MobileRepository extends JpaRepository<Mobile, Long> {

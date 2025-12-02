@@ -1,4 +1,4 @@
-package com.mobileapplication;
+package oms.admin;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -21,14 +21,14 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
-import com.mobileapplication.dto.CategoryDto;
-import com.mobileapplication.dto.CustomerDTO;
-import com.mobileapplication.dto.MobileDTO;
-import com.mobileapplication.dto.OrderDTO;
-import com.mobileapplication.entity.Admin;
-import com.mobileapplication.repository.AdminRepository;
-import com.mobileapplication.service.AdminNotFoundException;
-import com.mobileapplication.service.AdminServiceImpl;
+import oms.admin.dto.CategoryDto;
+import oms.admin.dto.CustomerDTO;
+import oms.admin.dto.MobileDTO;
+import oms.admin.dto.OrderDTO;
+import oms.admin.entity.Admin;
+import oms.admin.repository.AdminRepository;
+import oms.admin.service.AdminNotFoundException;
+import oms.admin.service.AdminServiceImpl;
 
 
 

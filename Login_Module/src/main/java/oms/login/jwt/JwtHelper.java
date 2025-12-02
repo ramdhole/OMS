@@ -1,4 +1,4 @@
-package com.oms.jwt;
+package oms.login.jwt;
 
 import java.util.Date;
 import java.util.HashMap;

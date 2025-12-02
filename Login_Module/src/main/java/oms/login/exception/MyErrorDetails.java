@@ -1,4 +1,4 @@
-package com.oms.exception;
+package oms.login.exception;
 
 import java.time.LocalDateTime;
 

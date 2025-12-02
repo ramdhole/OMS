@@ -1,11 +1,11 @@
-package com.oms.repository;
+package oms.cart.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.oms.entity.Cart;
+import oms.cart.entity.Cart;
 
 @Repository
 public interface ICartRepository extends JpaRepository<Cart, Integer> {

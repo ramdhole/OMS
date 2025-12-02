@@ -1,4 +1,4 @@
-package com.mobileapplication;
+package oms.admin;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -15,12 +15,12 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-import com.mobileapplication.controller.AdminController;
-import com.mobileapplication.dto.CategoryDto;
-import com.mobileapplication.dto.CustomerDTO;
-import com.mobileapplication.dto.MobileDTO;
-import com.mobileapplication.dto.OrderDTO;
-import com.mobileapplication.service.AdminServiceImpl;
+import oms.admin.controller.AdminController;
+import oms.admin.dto.CategoryDto;
+import oms.admin.dto.CustomerDTO;
+import oms.admin.dto.MobileDTO;
+import oms.admin.dto.OrderDTO;
+import oms.admin.service.AdminServiceImpl;
 
 public class AdminCtrlTest {
 

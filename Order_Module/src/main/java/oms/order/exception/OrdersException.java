@@ -1,4 +1,4 @@
-package com.orders.exception;
+package oms.order.exception;
 
 public class OrdersException extends RuntimeException{
 	public OrdersException(String message) {

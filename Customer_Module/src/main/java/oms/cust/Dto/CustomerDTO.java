@@ -1,4 +1,4 @@
-package com.cg.mobileStore.Dto;
+package oms.cust.Dto;
 
 import java.util.ArrayList;
 import java.util.List;

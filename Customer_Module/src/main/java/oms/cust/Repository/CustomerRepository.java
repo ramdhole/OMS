@@ -1,10 +1,10 @@
-package com.cg.mobileStore.Repository;
+package oms.cust.Repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.cg.mobileStore.Entity.Customer;
+import oms.cust.Entity.Customer;
 
 
 public interface CustomerRepository  extends JpaRepository<Customer, Integer>{

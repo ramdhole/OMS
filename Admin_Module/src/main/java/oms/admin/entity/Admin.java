@@ -1,4 +1,4 @@
-package com.mobileapplication.entity;
+package oms.admin.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

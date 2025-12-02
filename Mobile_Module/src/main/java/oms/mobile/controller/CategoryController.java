@@ -1,4 +1,4 @@
-package com.onlineapplication.controller;
+package oms.mobile.controller;
 
 import java.util.List;
 
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.onlineapplication.dto.CategoryDto;
-import com.onlineapplication.service.CategoryServiceImpl;
+import oms.mobile.dto.CategoryDto;
+import oms.mobile.service.CategoryServiceImpl;
 
 @RestController
 @RequestMapping("/category")

@@ -1,4 +1,4 @@
-package com.mobileapplication.dto;
+package oms.admin.dto;
 
 import java.time.LocalDate;
 import java.util.HashSet;

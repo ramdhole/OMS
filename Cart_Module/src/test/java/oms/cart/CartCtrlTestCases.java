@@ -1,4 +1,4 @@
-package com.oms;
+package oms.cart;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;
@@ -11,11 +11,11 @@ import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-import com.oms.controller.CartController;
-import com.oms.dto.CartDto;
-import com.oms.dto.MobileDto;
-import com.oms.entity.Cart;
-import com.oms.service.ICartService;
+import oms.cart.controller.CartController;
+import oms.cart.dto.CartDto;
+import oms.cart.dto.MobileDto;
+import oms.cart.entity.Cart;
+import oms.cart.service.ICartService;
 
 public class CartCtrlTestCases {
 

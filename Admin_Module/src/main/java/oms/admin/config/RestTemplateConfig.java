@@ -1,4 +1,4 @@
-package com.mobileapplication.config;
+package oms.admin.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

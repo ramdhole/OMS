@@ -9,10 +9,10 @@
 		<version>3.2.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.mobileapplication</groupId>
-	<artifactId>AdminMicroService</artifactId>
+	<groupId>oms.admin</groupId>
+	<artifactId>Admin_Module</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>AdminMicroService</name>
+	<name>Admin_Module</name>
 	<description>Online Mobile Application with Spring Boot and Authentication</description>
 	<properties>
 		<java.version>17</java.version>

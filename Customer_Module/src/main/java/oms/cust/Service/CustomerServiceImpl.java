@@ -1,4 +1,4 @@
-package com.cg.mobileStore.Service;
+package oms.cust.Service;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,19 +10,18 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.cg.mobileStore.Dto.CartDTO;
-import com.cg.mobileStore.Dto.CustomerDTO;
-import com.cg.mobileStore.Dto.MobileDTO;
-import com.cg.mobileStore.Dto.OrderDTO;
-import com.cg.mobileStore.Entity.Customer;
-import com.cg.mobileStore.Exception.CartNotCreatedException;
-import com.cg.mobileStore.Exception.CartNotFoundException;
-import com.cg.mobileStore.Exception.CustomerNotFoundException;
-import com.cg.mobileStore.Exception.CustomerNotSavedException;
-import com.cg.mobileStore.Exception.MobileNotFoundException;
-import com.cg.mobileStore.Repository.CustomerRepository;
-
 import jakarta.transaction.Transactional;
+import oms.cust.Dto.CartDTO;
+import oms.cust.Dto.CustomerDTO;
+import oms.cust.Dto.MobileDTO;
+import oms.cust.Dto.OrderDTO;
+import oms.cust.Entity.Customer;
+import oms.cust.Exception.CartNotCreatedException;
+import oms.cust.Exception.CartNotFoundException;
+import oms.cust.Exception.CustomerNotFoundException;
+import oms.cust.Exception.CustomerNotSavedException;
+import oms.cust.Exception.MobileNotFoundException;
+import oms.cust.Repository.CustomerRepository;
 
 @Service
 public class CustomerServiceImpl implements CustomerService {

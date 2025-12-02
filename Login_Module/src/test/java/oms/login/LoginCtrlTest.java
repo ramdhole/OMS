@@ -1,4 +1,4 @@
-package com.example.demo;
+package oms.login;
 
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -18,10 +18,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import com.oms.controller.LoginCtrl;
-import com.oms.dto.CustomerDTO;
-import com.oms.entity.JWTResponse;
-import com.oms.service.LoginServ;
+import oms.login.controller.LoginCtrl;
+import oms.login.dto.CustomerDTO;
+import oms.login.entity.JWTResponse;
+import oms.login.service.LoginServ;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

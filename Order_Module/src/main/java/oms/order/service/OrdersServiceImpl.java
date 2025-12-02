@@ -1,4 +1,4 @@
-package com.orders.service;
+package oms.order.service;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -21,25 +21,16 @@ import org.springframework.stereotype.Service;
 
 import org.springframework.web.client.RestTemplate;
 
-import com.orders.dto.CartDto;
-
-import com.orders.dto.CustomerDto;
-
-import com.orders.dto.MobilesDto;
-
-import com.orders.dto.OrdersDto;
-
-import com.orders.entity.Orders;
-
-import com.orders.exception.CartException;
-
-import com.orders.exception.MobilesException;
-
-import com.orders.exception.OrdersException;
-
-import com.orders.exception.UsersException;
-
-import com.orders.repository.IOrderRepository;
+import oms.order.dto.CartDto;
+import oms.order.dto.CustomerDto;
+import oms.order.dto.MobilesDto;
+import oms.order.dto.OrdersDto;
+import oms.order.entity.Orders;
+import oms.order.exception.CartException;
+import oms.order.exception.MobilesException;
+import oms.order.exception.OrdersException;
+import oms.order.exception.UsersException;
+import oms.order.repository.IOrderRepository;
 
 @Service
 

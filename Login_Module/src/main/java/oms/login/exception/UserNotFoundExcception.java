@@ -1,4 +1,4 @@
-package com.oms.exception;
+package oms.login.exception;
 
 public class UserNotFoundExcception extends RuntimeException {
 

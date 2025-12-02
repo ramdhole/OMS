@@ -1,4 +1,4 @@
-package com.cg.mobileStore;
+package oms.cust;
  
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
@@ -16,15 +16,15 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.modelmapper.ModelMapper;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.client.RestTemplate;
- 
-import com.cg.mobileStore.Dto.CartDTO;
-import com.cg.mobileStore.Dto.CustomerDTO;
-import com.cg.mobileStore.Dto.MobileDTO;
-import com.cg.mobileStore.Dto.OrderDTO;
-import com.cg.mobileStore.Entity.Customer;
-import com.cg.mobileStore.Exception.*;
-import com.cg.mobileStore.Repository.CustomerRepository;
-import com.cg.mobileStore.Service.CustomerServiceImpl;
+
+import oms.cust.Dto.CartDTO;
+import oms.cust.Dto.CustomerDTO;
+import oms.cust.Dto.MobileDTO;
+import oms.cust.Dto.OrderDTO;
+import oms.cust.Entity.Customer;
+import oms.cust.Exception.*;
+import oms.cust.Repository.CustomerRepository;
+import oms.cust.Service.CustomerServiceImpl;
  
 @ExtendWith(MockitoExtension.class)
 class CustomerServiceImplTest {

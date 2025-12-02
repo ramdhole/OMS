@@ -1,4 +1,4 @@
-package com.cg.mobileStore.Controller;
+package oms.cust.Controller;
 
 import java.util.List;
 
@@ -15,12 +15,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cg.mobileStore.Dto.CartDTO;
-import com.cg.mobileStore.Dto.CustomerDTO;
-import com.cg.mobileStore.Dto.MobileDTO;
-import com.cg.mobileStore.Dto.OrderDTO;
-import com.cg.mobileStore.Entity.Customer;
-import com.cg.mobileStore.Service.CustomerService;
+import oms.cust.Dto.CartDTO;
+import oms.cust.Dto.CustomerDTO;
+import oms.cust.Dto.MobileDTO;
+import oms.cust.Dto.OrderDTO;
+import oms.cust.Entity.Customer;
+import oms.cust.Service.CustomerService;
 
 @RestController
 @RequestMapping("/customer")

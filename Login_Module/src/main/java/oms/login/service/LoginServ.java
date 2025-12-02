@@ -1,7 +1,7 @@
-package com.oms.service;
+package oms.login.service;
 
-import com.oms.dto.CustomerDTO;
-import com.oms.entity.JWTResponse;
+import oms.login.dto.CustomerDTO;
+import oms.login.entity.JWTResponse;
 
 public interface LoginServ {
 

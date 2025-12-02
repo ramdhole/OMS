@@ -1,4 +1,4 @@
-package com.oms.entity;
+package oms.cart.entity;
 
 import java.util.HashMap;
 import java.util.Map;

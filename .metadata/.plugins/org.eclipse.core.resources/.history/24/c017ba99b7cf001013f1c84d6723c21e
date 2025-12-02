@@ -1,0 +1,14 @@
+package com.oms.service;
+
+import oms.login.dto.CustomerDTO;
+import oms.login.entity.JWTResponse;
+
+public interface LoginServ {
+
+	public CustomerDTO getByUserName(String userName);
+	
+	public JWTResponse signIn(CustomerDTO cust);
+
+	public JWTResponse signInAdmin(String userName, String pass); 
+
+}

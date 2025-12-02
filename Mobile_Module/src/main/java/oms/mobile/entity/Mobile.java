@@ -1,4 +1,4 @@
-package com.onlineapplication.entity;
+package oms.mobile.entity;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;

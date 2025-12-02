@@ -1,4 +1,4 @@
-package com.oms.dto;
+package oms.cart.dto;
 
 import java.time.LocalDate;
 

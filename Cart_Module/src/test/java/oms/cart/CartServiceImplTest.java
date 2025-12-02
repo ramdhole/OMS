@@ -1,4 +1,4 @@
-package com.oms;
+package oms.cart;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -17,11 +17,11 @@ import org.junit.jupiter.api.Test;
 import org.modelmapper.ModelMapper;
 import org.springframework.web.client.RestTemplate;
 
-import com.oms.dto.CartDto;
-import com.oms.dto.MobileDto;
-import com.oms.entity.Cart;
-import com.oms.repository.ICartRepository;
-import com.oms.service.CartServiceImpl;
+import oms.cart.dto.CartDto;
+import oms.cart.dto.MobileDto;
+import oms.cart.entity.Cart;
+import oms.cart.repository.ICartRepository;
+import oms.cart.service.CartServiceImpl;
 
 public class CartServiceImplTest {
 

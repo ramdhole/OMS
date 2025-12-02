@@ -1,4 +1,4 @@
-package com.mobileapplication.service;
+package oms.admin.service;
 
 public class AdminNotFoundException extends RuntimeException {
 

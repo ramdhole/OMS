@@ -1,0 +1,30 @@
+package com.mobileapplication.service;
+
+import java.util.List;
+
+import jakarta.validation.Valid;
+import oms.admin.dto.CategoryDto;
+import oms.admin.dto.CustomerDTO;
+import oms.admin.dto.MobileDTO;
+import oms.admin.dto.OrderDTO;
+import oms.admin.entity.Admin;
+
+public interface AdminService {
+	CategoryDto addCategory(@Valid CategoryDto categoryDto);
+
+	List<CategoryDto> getAllCategories();
+
+	CategoryDto deleteCategoryById(int categoryId);
+
+	CategoryDto updateCategory(@Valid CategoryDto category);
+
+	List<MobileDTO> getMobilesByCategoryName(String categoryName);
+
+	List<CustomerDTO> allCustomer();
+
+	List<OrderDTO> getAllOrders();
+
+	MobileDTO addMobile(@Valid MobileDTO mobile);
+
+	Admin getAdmin(String userName);
+}

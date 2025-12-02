@@ -1,4 +1,4 @@
-package com.onlineapplication.controller;
+package oms.mobile.controller;
 
 import java.util.List;
 
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.onlineapplication.dto.MobileDTO;
-import com.onlineapplication.entity.Mobile;
-import com.onlineapplication.service.MobileService;
+import oms.mobile.dto.MobileDTO;
+import oms.mobile.entity.Mobile;
+import oms.mobile.service.MobileService;
 
 @RestController
 @RequestMapping("/mobile")

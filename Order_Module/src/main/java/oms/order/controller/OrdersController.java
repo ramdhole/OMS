@@ -1,4 +1,4 @@
-package com.orders.controller;
+package oms.order.controller;
 
 import java.util.List;
 
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.orders.dto.MobilesDto;
-import com.orders.dto.OrdersDto;
-import com.orders.service.IOrderService;
+import oms.order.dto.MobilesDto;
+import oms.order.dto.OrdersDto;
+import oms.order.service.IOrderService;
 
 @RestController
 @RequestMapping("/order")

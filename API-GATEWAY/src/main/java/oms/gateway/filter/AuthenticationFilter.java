@@ -1,4 +1,4 @@
-package com.oms.filter;
+package oms.gateway.filter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
@@ -6,7 +6,7 @@ import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFac
 import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Component;
 
-import com.oms.util.JwtUtil;
+import oms.gateway.util.JwtUtil;
 
 
 @Component

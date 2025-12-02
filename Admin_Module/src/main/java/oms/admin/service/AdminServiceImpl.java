@@ -1,4 +1,4 @@
-package com.mobileapplication.service;
+package oms.admin.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,14 +10,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.mobileapplication.dto.CategoryDto;
-import com.mobileapplication.dto.CustomerDTO;
-import com.mobileapplication.dto.MobileDTO;
-import com.mobileapplication.dto.OrderDTO;
-import com.mobileapplication.entity.Admin;
-import com.mobileapplication.repository.AdminRepository;
-
 import jakarta.validation.Valid;
+import oms.admin.dto.CategoryDto;
+import oms.admin.dto.CustomerDTO;
+import oms.admin.dto.MobileDTO;
+import oms.admin.dto.OrderDTO;
+import oms.admin.entity.Admin;
+import oms.admin.repository.AdminRepository;
 
 @Service
 public class AdminServiceImpl implements AdminService {

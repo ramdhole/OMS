@@ -1,4 +1,4 @@
-package com.oms.jwt;
+package oms.login.jwt;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

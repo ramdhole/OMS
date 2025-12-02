@@ -1,4 +1,4 @@
-package com.mobileapplication.dto;
+package oms.admin.dto;
 
 import jakarta.validation.constraints.Pattern;
 import lombok.Data;

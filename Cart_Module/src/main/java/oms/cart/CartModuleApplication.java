@@ -1,4 +1,4 @@
-package com.oms;
+package oms.cart;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;

@@ -1,4 +1,4 @@
-package com.cg.mobileStore.Entity;
+package oms.cust.Entity;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,14 +1,13 @@
-package com.mobileapplication.service;
+package oms.admin.service;
 
 import java.util.List;
 
-import com.mobileapplication.dto.CategoryDto;
-import com.mobileapplication.dto.CustomerDTO;
-import com.mobileapplication.dto.MobileDTO;
-import com.mobileapplication.dto.OrderDTO;
-import com.mobileapplication.entity.Admin;
-
 import jakarta.validation.Valid;
+import oms.admin.dto.CategoryDto;
+import oms.admin.dto.CustomerDTO;
+import oms.admin.dto.MobileDTO;
+import oms.admin.dto.OrderDTO;
+import oms.admin.entity.Admin;
 
 public interface AdminService {
 	CategoryDto addCategory(@Valid CategoryDto categoryDto);

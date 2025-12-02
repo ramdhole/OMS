@@ -1,4 +1,4 @@
-package com.orders.exception;
+package oms.order.exception;
 
 import java.util.Date;
 

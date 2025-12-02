@@ -1,4 +1,4 @@
-package com.oms.service;
+package oms.login.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -10,12 +10,11 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.oms.dto.CustomerDTO;
-import com.oms.entity.JWTResponse;
-import com.oms.exception.UserNotFoundExcception;
-import com.oms.jwt.JwtHelper;
-
 import lombok.extern.slf4j.Slf4j;
+import oms.login.dto.CustomerDTO;
+import oms.login.entity.JWTResponse;
+import oms.login.exception.UserNotFoundExcception;
+import oms.login.jwt.JwtHelper;
 
 @Slf4j
 @Service

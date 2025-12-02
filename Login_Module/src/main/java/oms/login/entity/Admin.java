@@ -1,4 +1,4 @@
-package com.oms.entity;
+package oms.login.entity;
 
 import lombok.Data;
 

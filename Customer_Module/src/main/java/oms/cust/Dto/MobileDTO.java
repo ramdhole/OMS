@@ -1,4 +1,4 @@
-package com.cg.mobileStore.Dto;
+package oms.cust.Dto;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;

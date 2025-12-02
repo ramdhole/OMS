@@ -1,4 +1,4 @@
-package com.onlineapplication.exception;
+package oms.mobile.exception;
 
 public class CategoryException extends RuntimeException{
 

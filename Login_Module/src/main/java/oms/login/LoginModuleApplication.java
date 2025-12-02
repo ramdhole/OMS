@@ -1,4 +1,4 @@
-package com.oms;
+package oms.login;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;

@@ -1,8 +1,5 @@
-package com.orders;
+package oms.order;
  
-import com.orders.controller.OrdersController;
-import com.orders.dto.OrdersDto;
-import com.orders.service.IOrderService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -10,7 +7,11 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
- 
+
+import oms.order.controller.OrdersController;
+import oms.order.dto.OrdersDto;
+import oms.order.service.IOrderService;
+
 import java.util.ArrayList;
 import java.util.List;
  

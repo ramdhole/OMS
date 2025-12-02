@@ -1,4 +1,4 @@
-package com.oms.controller;
+package oms.cart.controller;
 
 import java.util.List;
 
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.oms.dto.CartDto;
-import com.oms.dto.MobileDto;
-import com.oms.entity.Cart;
-import com.oms.service.ICartService;
+import oms.cart.dto.CartDto;
+import oms.cart.dto.MobileDto;
+import oms.cart.entity.Cart;
+import oms.cart.service.ICartService;
 
 
 

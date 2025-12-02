@@ -1,4 +1,4 @@
-package com.cg.mobileStore.Exception;
+package oms.cust.Exception;
 
 
 public class CartNotFoundException extends RuntimeException {

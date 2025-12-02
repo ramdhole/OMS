@@ -1,4 +1,4 @@
-package com.cg.mobileStore.Dto;
+package oms.cust.Dto;
 
 import java.util.HashMap;
 import java.util.Map;

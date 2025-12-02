@@ -1,4 +1,4 @@
-package com.oms.util;
+package oms.gateway.util;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;

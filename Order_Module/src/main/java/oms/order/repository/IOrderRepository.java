@@ -1,4 +1,4 @@
-package com.orders.repository;
+package oms.order.repository;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.orders.entity.Orders;
+import oms.order.entity.Orders;
 
 
 @Repository
