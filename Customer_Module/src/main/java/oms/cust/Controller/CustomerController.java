@@ -64,11 +64,11 @@ public class CustomerController {
 		return new ResponseEntity<>(customerService.getCartByCustomerId(id), HttpStatus.OK);
 	}
 
-	@GetMapping("/mobiles/{mobileName}")
-	public ResponseEntity<List<MobileDTO>> findMobileByMobileName(@PathVariable String mobileName){
-
-		return new ResponseEntity<>(customerService.findMobileByName(mobileName), HttpStatus.OK);
-	}
+//	@GetMapping("/mobiles/{mobileName}")
+//	public ResponseEntity<List<MobileDTO>> findMobileByMobileName(@PathVariable String mobileName){
+//
+//		return new ResponseEntity<>(customerService.findMobileByName(mobileName), HttpStatus.OK);
+//	}
 
 	@PostMapping("/addMobile/{customerId}")
 	public ResponseEntity<CartDTO> addMobileToCartBycustomerId(@PathVariable Integer customerId, @RequestParam Integer mobileId){
